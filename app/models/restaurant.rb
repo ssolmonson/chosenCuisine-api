@@ -3,6 +3,8 @@ class Restaurant < ApplicationRecord
   validates :city,
             :state,
             :address,
+            :zipcode,
+            :title,
             :foodtype,
             presence: true
 end
